@@ -1,7 +1,8 @@
 # Web-Parser
 
 Main purpose of the project is to parse webpages and extract information.
-Project can be used for every website but the project is built for specific websites and querys.  These are the parser's specialisations. 
+Project can be used for every website but the project is built for specific websites and querys.  
+These are the parser's specialisations. 
 
 Data is parsed and stored into the **Extract** object and its child objects.
 **Extract** child objects:
@@ -10,8 +11,12 @@ Data is parsed and stored into the **Extract** object and its child objects.
 **ExctractScript** child objects:
   - **ExtractJSON**
 
-Parsed data is analysed in **Parse** object
+Parsed data is analysed in **Parse** object.
+Specialisations are child objects of **Parse**.
 
+Current specialisations are:
+  - **ParseYT** 
+    Does a YouTube search query
 
 
 # Dependencies
