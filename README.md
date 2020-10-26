@@ -6,18 +6,24 @@ These are the parser's specialisations.
 
 Data is parsed and stored into the **Extract** object and its child objects.
 **Extract** child objects:
-  - **ExtractScript** used to store all the scripts
-  
-**ExctractScript** child objects:
+  - **ExtractScript** 
+    Extracts all the scripts from an html page
   - **ExtractJSON**
+    Child of **ExtractScript** 
+    Extracts all the json from an html page
 
-Parsed data is analysed in **Parse** object.
+Extracted data is analysed in **Parse** object.
 Specialisations are child objects of **Parse**.
 
 Current specialisations are:
   - **ParseYT** 
     Does a YouTube search query
+  - **ParseYT_Channel** 
+    Child object of **ParseYT**
+    Extracts channel information from a search query
 
+# Output Files
+Whenever you want to save the output, the output would be saved to the **Output Files** directory. 
 
 # Dependencies
  - BeautifulSoup4
