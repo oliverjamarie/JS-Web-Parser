@@ -6,8 +6,18 @@ __pycache__/
 # C extensions
 *.so
 
-#JSON
-.json
+#JSON and JS
+*.json
+*.js
+
+*.html
+
+#test files
+Test*
+test*
+
+#output files
+Output Files/
 
 # Distribution / packaging
 .Python
