@@ -12,6 +12,12 @@ __pycache__/
 
 *.html
 
+#All vscode files
+.vscode
+
+#workspace files
+*workspace
+
 #test files
 Test*
 test*
